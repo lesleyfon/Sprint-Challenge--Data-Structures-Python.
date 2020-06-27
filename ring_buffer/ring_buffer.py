@@ -12,6 +12,10 @@ class RingBuffer:
             Step 4: Check if we have arrive at the last element of the buffer, if so we have updated all the elements in the buffer 
                     and now we want to reset the oldest elements index to point to the first element in the buffer
             Step 5: Is the else case just adding items in  the buffer when it is still empty/Not yet full
+
+        Get:
+            basically just return the current elements in the buffer
+
     '''
 
     def __init__(self, capacity):
